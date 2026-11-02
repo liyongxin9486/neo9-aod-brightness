@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="io.local.neoaod.typeguard" android:versionCode="29" android:versionName="4.0-schedule">
+    <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="36"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <application android:label="Neo9 AOD" android:theme="@android:style/Theme.Material.Light.NoActionBar" android:allowBackup="false" android:supportsRtl="true" android:icon="@drawable/ic_aod">
+        <meta-data android:name="xposedmodule" android:value="true"/>
+        <meta-data android:name="xposeddescription" android:value="局部与全屏息屏兼容、亮度调节、两组每日定时亮度。作用域：熄屏显示、系统界面。"/>
+        <meta-data android:name="xposedminversion" android:value="82"/>
+        <meta-data android:name="xposedscope" android:resource="@array/xposedscope"/>
+        <activity android:name=".SettingsActivity" android:exported="true" android:label="息屏亮度" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="de.robv.android.xposed.category.MODULE_SETTINGS"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+            <intent-filter><action android:name="android.intent.action.APPLICATION_PREFERENCES"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+        </activity>
+    </application>
+</manifest>

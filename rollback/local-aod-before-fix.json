@@ -1,0 +1,47 @@
+[
+  {
+    "namespace": "system",
+    "key": "screen_off_remind",
+    "value": "1"
+  },
+  {
+    "namespace": "system",
+    "key": "screen_off_remind_show_mode",
+    "value": "2"
+  },
+  {
+    "namespace": "system",
+    "key": "screen_off_remind_style",
+    "value": "352"
+  },
+  {
+    "namespace": "system",
+    "key": "use_aod_infinity",
+    "value": "0"
+  },
+  {
+    "namespace": "secure",
+    "key": "doze_always_on",
+    "value": "0"
+  },
+  {
+    "namespace": "secure",
+    "key": "full_screen_aod_enabled",
+    "value": "1"
+  },
+  {
+    "namespace": "secure",
+    "key": "vivo_keyguard_aod_type",
+    "value": "1"
+  },
+  {
+    "namespace": "secure",
+    "key": "vivo_integration_aod_enable",
+    "value": "0"
+  },
+  {
+    "namespace": "secure",
+    "key": "vivo_support_launcher_aod",
+    "value": "0"
+  }
+]

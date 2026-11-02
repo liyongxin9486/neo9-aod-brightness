@@ -1,0 +1,32 @@
+[
+  {
+    "namespace": "secure",
+    "key": "full_screen_aod_enabled",
+    "value": "0"
+  },
+  {
+    "namespace": "secure",
+    "key": "vivo_keyguard_aod_type",
+    "value": "2"
+  },
+  {
+    "namespace": "system",
+    "key": "use_aod_infinity",
+    "value": "0"
+  },
+  {
+    "namespace": "secure",
+    "key": "doze_always_on",
+    "value": "0"
+  },
+  {
+    "namespace": "system",
+    "key": "screen_off_remind_aod_type",
+    "value": "2"
+  },
+  {
+    "namespace": "secure",
+    "key": "screen_off_remind_aod_type",
+    "value": "0"
+  }
+]
